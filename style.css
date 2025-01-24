@@ -4,8 +4,17 @@ body {
     font-family: 'Libre Franklin', sans-serif !important;
 }
 
+a.redLink {
+    color: rgba(202,54,4,1);
+}
+
+a.redLink:hover {
+    color: rgba(202,54,4,0.8);
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Metric Black', sans-serif !important;
+    text-transform: uppercase;
 }
 
 .preheader {
@@ -58,7 +67,7 @@ header {
 }
 
 .navbar .dropdown-menu {
-    background-color:  rgba(0,0,0,0.85) !important;
+    background-color:  rgba(50,50,50,1) !important;
     padding-left: 0;
     padding-right: 0;
     border: none !important;
@@ -67,7 +76,7 @@ header {
 
 .navbar .dropdown-menu .container {
     width: 100%;
-    padding: 4em;
+    padding: 3em;
     min-width: 100%;
     border: none !important;
 }
@@ -166,14 +175,14 @@ footer.footer .container span {
         display: block;
         visibility: hidden;
         opacity: 0;
-        transition: visibility 0.2s ease, opacity 0.3s linear;
+        transition: visibility 0.1s ease, opacity 0.3s linear;
     }
     /* shows the dropdown menu on hover */
     .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
         display: block;
         visibility: visible;
         opacity: 1;
-        transition: visibility 0.2s ease, opacity 0.3s linear;
+        transition: visibility 0.1s ease, opacity 0.3s linear;
     }
     .navbar .dropdown-menu {
         /*border: 1px solid rgba(0,0,0,.15);
