@@ -27,6 +27,11 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
+hr {
+    border-bottom: 1px solid #ffffff !important;
+    border-top: 0 solid #ffffff !important;
+}
+
 /* Sunset Button */
 .buttonSunset, a.buttonsunset, input.buttonSunset {
 	font-family: 'Libre Franklin', sans-serif !important;
