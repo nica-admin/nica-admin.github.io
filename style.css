@@ -85,8 +85,8 @@ hr {
     color: rgba(255,255,255,0.7) !important;
 }
 
-.preheader svg {
-    margin-bottom: .15em;
+.preheader svg, #navbarDropdownSearch svg {
+    margin-bottom: .2em;
     margin-right: .25em;
 }
 
@@ -241,6 +241,12 @@ footer.footer .container span {
         min-height: calc(100vh - 220px);
         
     }
+    .hideM {
+        display: block !important;
+    }
+    .showM {
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -265,6 +271,12 @@ footer.footer .container span {
         min-height: calc(100vh - 220px);
         
     }
+    .hideM {
+        display: none !important;
+    }
+    .showM {
+        display: block !important;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -288,5 +300,11 @@ footer.footer .container span {
     section#home-hero {
         min-height: calc(100vh - 290px);
         
+    }
+    .hideM {
+        display: none !important;
+    }
+    .showM {
+        display: block !important;
     }
 }
