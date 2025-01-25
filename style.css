@@ -79,6 +79,7 @@ hr {
 
 .preheader a {
     color: rgba(255,255,255,1) !important;
+    font-weight: 600;
 }
 
 .preheader a:hover {
