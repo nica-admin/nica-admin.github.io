@@ -247,6 +247,9 @@ footer.footer .container span {
     .showM {
         display: none !important;
     }
+    .nav_content_col video {
+        max-width: 90% !important;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -277,6 +280,9 @@ footer.footer .container span {
     .showM {
         display: block !important;
     }
+    .nav_content_col video {
+        max-width: 90% !important;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -296,6 +302,9 @@ footer.footer .container span {
     .nav_content_col {
         min-width: 100%;
         padding: 1em 0;
+    }
+    .nav_content_col video {
+        min-width: 100% !important;
     }
     section#home-hero {
         min-height: calc(100vh - 290px);
