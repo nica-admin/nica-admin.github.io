@@ -67,7 +67,6 @@ hr {
     font-size: 0.8em;
     text-align: center;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -194,6 +193,7 @@ footer.footer .container span {
 @media screen and (min-width: 992px) {
     .preheader {
         height: 40px;
+        justify-content: flex-end !important;
     }
     /* remove the padding from the navbar so the dropdown hover state is not broken */
     .navbar {
@@ -255,9 +255,9 @@ footer.footer .container span {
 
 @media screen and (max-width: 991px) {
     .preheader {
-        flex-direction: row !important;
-        justify-content: center !important;
         height: 40px;
+        flex-direction: row !important;
+        justify-content: flex-end !important;
     }
     button.navbar-toggler {
         margin-right: 1em;
@@ -286,7 +286,7 @@ footer.footer .container span {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
     .preheader {
         flex-direction: column !important;
         justify-content: center !important;
