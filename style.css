@@ -110,7 +110,9 @@ header {
 }
 
 .navbar .dropdown-menu {
-    background-color: rgba(50,50,50,1) !important;
+    background-color: rgba(20,20,20,1) !important;
+    background-image: url(https://files.nationalmtb.org/hubfs/Brand-Assets/NICA-National/Graphics/White-Topo-Overlay-Dim.png);
+    background-size: cover !important;
     padding-left: 0;
     padding-right: 0;
     border-top: 18px solid transparent !important;
