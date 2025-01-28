@@ -63,6 +63,8 @@ hr {
 .preheader {
     min-width: 100%;
     background-color: #ED9B33 !important;
+    background-image: url(https://files.nationalmtb.org/hubfs/Brand-Assets/NICA-National/Graphics/White%20Topo%20Overlay.png);
+    background-size: cover !important;
     display: flex;
     font-size: 0.8em;
     text-align: center;
@@ -212,6 +214,8 @@ footer.footer .container span {
     }
     .navbar .dropdown-menu {
         width: 100%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
         left: 0;
         right: 0;
         /*  height of nav-item  */
@@ -229,12 +233,6 @@ footer.footer .container span {
         visibility: visible;
         opacity: 1;
         transition: visibility 0.1s ease, opacity 0.3s linear;
-    }
-    .navbar .dropdown-menu {
-        /*border: 1px solid rgba(0,0,0,.15);
-        background-color: #fff;*/
-        padding-left: 0 !important;
-        padding-right: 0 !important;
     }
     .nav_content_col {
         max-width: 50%;
