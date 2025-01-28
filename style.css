@@ -224,8 +224,6 @@ footer.footer .container span {
         visibility: hidden;
         opacity: 0;
         transition: visibility 0.1s ease, opacity 0.3s linear;
-        background-image: url(https://files.nationalmtb.org/hubfs/Brand-Assets/NICA-National/Graphics/White-Topo-Overlay-Dim.png);
-        background-size: cover !important;
     }
     /* shows the dropdown menu on hover */
     .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
