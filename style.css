@@ -74,8 +74,6 @@ hr {
     padding: 0 1em;
     margin: 0 auto;
     color: #ffffff;
-    font-family: 'Metric Black', sans-serif !important;
-    font-size: 1.1em;
 }
 
 .preheader a {
@@ -112,9 +110,7 @@ header {
 }
 
 .navbar .dropdown-menu {
-    background-color: rgba(20,20,20,1) !important;
-    background-image: url(https://files.nationalmtb.org/hubfs/Brand-Assets/NICA-National/Graphics/White-Topo-Overlay-Dim.png);
-    background-size: cover !important;
+    background-color: rgba(0,0,0,1) !important;
     padding-left: 0;
     padding-right: 0;
     border-top: 18px solid transparent !important;
@@ -224,6 +220,8 @@ footer.footer .container span {
         visibility: hidden;
         opacity: 0;
         transition: visibility 0.1s ease, opacity 0.3s linear;
+        background-image: url(https://files.nationalmtb.org/hubfs/Brand-Assets/NICA-National/Graphics/White-Topo-Overlay-Dim.png);
+        background-size: cover !important;
     }
     /* shows the dropdown menu on hover */
     .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
@@ -265,6 +263,9 @@ footer.footer .container span {
     }
     button.navbar-toggler {
         margin-right: 1em;
+    }
+    .navbar .dropdown-menu {
+        background-color: transparent !important;
     }
     .navbar .dropdown-menu .container {
         padding: 1em 2em;
