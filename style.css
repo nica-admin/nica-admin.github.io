@@ -110,10 +110,10 @@ header {
 }
 
 .navbar .dropdown-menu {
-    background-color:  rgba(0,0,0,1) !important;
+    background-color: rgba(50,50,50,1) !important;
     padding-left: 0;
     padding-right: 0;
-    border: none !important;
+    border-top: 18px solid transparent !important;
     border-radius: unset !important;
 }
 
