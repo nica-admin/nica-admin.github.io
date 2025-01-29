@@ -68,13 +68,11 @@ hr {
     display: flex;
     font-size: 0.8em;
     text-align: center;
-    flex-direction: row;
     align-items: center;
 }
 
-.preheader p, .preheader a {
-    padding: 0 1em;
-    margin: 0 auto;
+.preheader p {
+    padding: 0 2em;
     color: #ffffff;
 }
 
@@ -195,8 +193,21 @@ footer.footer .container span {
 @media screen and (min-width: 992px) {
     .preheader {
         height: 40px;
-        justify-content: flex-end !important;
+        flex-direction: row !important;
+        justify-content: center !important;
     }
+    
+    .preheader p {
+        padding: 0 2em;
+        margin: 0;
+        color: #ffffff;
+        border-right: 1px solid #ffffff;
+    }
+
+    .preheader p.last {
+        border-right: none;
+    }
+    
     /* remove the padding from the navbar so the dropdown hover state is not broken */
     .navbar {
         padding-top: 0;
@@ -255,7 +266,16 @@ footer.footer .container span {
     .preheader {
         height: 40px;
         flex-direction: row !important;
-        justify-content: flex-end !important;
+        justify-content: center !important;
+    }
+    .preheader p {
+        padding: 0 2em;
+        margin: 0;
+        color: #ffffff;
+        border-right: 1px solid #ffffff;
+    }
+    .preheader p.last {
+        border-right: none;
     }
     button.navbar-toggler {
         margin-right: 1em;
@@ -293,13 +313,13 @@ footer.footer .container span {
         justify-content: center !important;
         padding-top: .5em;
         padding-bottom: .5em;
-        height: 110px
+        height: 110px;
     }
-    .preheader p, .preheader a {
+    .preheader p {
         line-height: 2.25em;
         padding: 0 1em;
         margin: 0 auto;
-        color: #ffffff;
+        border-right: none;
     }
     .nav_content_col {
         min-width: 100%;
