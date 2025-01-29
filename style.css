@@ -163,13 +163,13 @@ ul li ul li .nav-link {
 
 section#home-hero {
     min-width: 100%;
-    padding: 4em 2em;
     background-image: url(https://files.nationalmtb.org/hubfs/Campaigns/Madigan%20Helmet%202024/TFR-XC-Thursday-Crans-Montana-RB-55.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
     color: #ffffff;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -260,6 +260,11 @@ footer.footer .container span {
     .nav_content_col video {
         max-width: 90% !important;
     }
+    section#home-hero div {
+        max-width: 80%;
+        margin: 4em 1em;
+        padding: 2em;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -305,6 +310,11 @@ footer.footer .container span {
     .nav_content_col video {
         max-width: 90% !important;
     }
+    section#home-hero div {
+        max-width: 80%;
+        margin: 4em 1em;
+        padding: 2em;
+    }
 }
 
 @media screen and (max-width: 620px) {
@@ -337,5 +347,10 @@ footer.footer .container span {
     }
     .showM {
         display: block !important;
+    }
+    section#home-hero div {
+        max-width: 100%;
+        margin: 4em 1em;
+        padding: 2em 1em;
     }
 }
