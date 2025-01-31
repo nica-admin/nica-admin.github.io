@@ -63,8 +63,8 @@ hr {
 .preheader {
     min-width: 100%;
     background-color: #ED9B33 !important;
-    background-image: url(https://files.nationalmtb.org/hubfs/Brand-Assets/NICA-National/Graphics/White%20Topo%20Overlay.png);
-    background-size: cover !important;
+    /*background-image: url(https://files.nationalmtb.org/hubfs/Brand-Assets/NICA-National/Graphics/White%20Topo%20Overlay.png);
+    background-size: cover !important;*/
     display: flex;
     font-size: 0.8em;
     text-align: center;
